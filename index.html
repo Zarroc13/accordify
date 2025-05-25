@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultimate Guitar Akkord-Konverter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ultimate Guitar Akkord-Konverter</h1>
+  <p>
+    Füge unten deinen kopierten Ultimate-Guitar-Text (mit Akkorden) ein und klicke auf „Formatieren“.<br>
+    Der Text wird so umgewandelt, dass die Akkorde im Songtext in eckigen Klammern stehen.
+  </p>
+  <textarea id="input" rows="20" cols="80" placeholder="Hier Ultimate Guitar Text einfügen"></textarea>
+  <br>
+  <button id="convertBtn">Formatieren</button>
+  <button id="downloadBtn" disabled>Als TXT herunterladen</button>
+  <h2>Ergebnis:</h2>
+  <pre id="output"></pre>
+  <script src="app.js"></script>
+</body>
+</html>
